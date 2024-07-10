@@ -1,0 +1,22 @@
+p{
+    font-family: Arial;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#egg_photo{
+    width: 400px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+#punch_button{
+    width: 60px;
+}

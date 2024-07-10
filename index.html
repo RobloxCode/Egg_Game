@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Egg game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div id="container">
+
+      <p id="clicks">
+        Clicks: 0
+      </p>
+
+      <p id="remaining_clicks">
+        Total Of Clicks: 10000         
+      </p>
+
+      <img id="egg_photo" src="eggPhotoNoBg.png" alt="">
+
+      <div id="container_for_buttons">
+        <button id="punch_button" onclick="pressClick(), updateTheText()">
+          Clicks
+        </button>
+  
+        <button id="reset_score_button" onclick="resetScore(), updateTheText()">
+          Reset Score
+        </button>
+      </div>
+      
+    </div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
