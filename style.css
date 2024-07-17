@@ -6,17 +6,37 @@ button:hover{
     cursor: pointer;
 }
 
+#clicks,
+#remaining_clicks,
+#page_title{
+    font-size: 25px
+}
+
 #egg_photo{
     width: 400px;
 }
 
 #container{
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 600px;
+    height: 600px;
     align-items: center;
+    margin-left: 430px;
 }
 
+#reset_score_button,
 #punch_button{
-    width: 60px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(220, 211, 211);
+}
+
+#reset_score_button:hover,
+#punch_button:hover{
+    background-color: rgb(202, 195, 195);
+    transition: 0.15s;
 }
