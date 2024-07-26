@@ -18,3 +18,4 @@ function resetScore() {
   click.remainingClicks = 10000;
 }
 
+updateTheText();
